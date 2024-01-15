@@ -2,8 +2,9 @@
 
     header,
     main {
-        width: 100%;
+        width: 94%;
     }
+
     .popular-tours,
     .nav,
     .banner-form {
@@ -33,12 +34,9 @@
 
 
     }
-
-    .banner {
-        width: 100%;
-        margin: 0 auto;
+    .banner{
+        margin: 0;
     }
-
     .banner-header {
         font-size: 2rem;
         font-weight: 700;
@@ -54,15 +52,42 @@
         font-size: 1rem;
     }
 
-    .popular-tours-img img{
+    .destination-texts h1 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .destination-texts p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px; 
+    }
+  
+    .popular-tours-img img {
         width: 100%;
     }
-    .popular-tours{
+
+    .popular-tours {
         gap: 24px;
+        margin-bottom: 24px;
     }
-    .popular-tours-texts h2{
+
+    .popular-tours-texts h2 {
         font-size: 1.25rem;
         font-weight: 800px;
     }
 
+    .destination-images {
+        grid-template-columns: 1fr;
+    }
+
+    .img-1,
+    .img-2,
+    .img-3,
+    .img-4,
+    .img-5,
+    .img-6,
+    .img-7 {
+        grid-column: 1/span 12;
+
+    }
 }
