@@ -157,7 +157,6 @@ main {
 .popular-tours{
     display: flex;
     align-items: center;
-    border: 2px solid springgreen;
     justify-content: space-between;
     gap: 150px;
 }

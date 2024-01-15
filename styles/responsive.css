@@ -4,8 +4,8 @@
     main {
         width: 100%;
     }
-
-    .nav-left-logo .nav,
+    .popular-tours,
+    .nav,
     .banner-form {
         flex-direction: column;
     }
@@ -53,7 +53,16 @@
         margin-bottom: 48px;
         font-size: 1rem;
     }
-
-
+    
+    .popular-tours-img img{
+        width: 100%;
+    }
+    .popular-tours{
+        gap: 24px;
+    }
+    .popular-tours-texts h2{
+        font-size: 1.25rem;
+        font-weight: 800px;
+    }
 
 }
