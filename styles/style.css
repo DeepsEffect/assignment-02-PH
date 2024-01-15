@@ -106,7 +106,9 @@ main {
     display: flex;
     gap: 24px;
 }
-.banner-form *{
+.banner-form input,
+.banner-form select{
+    flex: 1;
     width: 100%;
     padding: 14px;
     border: none;
@@ -116,10 +118,18 @@ main {
 .banner-form select, textarea{
     color: rgba(19, 19, 24, 0.50);
 }
+
 .banner-form .find-now-button {
     background-color: var(--primary-color);
-    color: #FFF;
+    color: #fff;
+    padding: 14px 44px; 
+    border: none;
+    border-radius: 8px;
 }
+.banner-form .find-now-button i{
+    padding-right: 8px;
+}
+
 .banner-form .find-now-button:hover{
     cursor: pointer;
     background-color:#ec5104;
