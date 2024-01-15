@@ -14,14 +14,14 @@
         width: 100px;
         margin-top: 20px;
         margin-bottom: 17px;
+
     }
 
     .nav-left-logo {
         font-size: 1.2rem;
         font-weight: 800;
         white-space: nowrap;
-        display: flex;
-        justify-content: space-between;
+        padding-left: 140px;
     }
 
     .nav-right-items {
@@ -53,7 +53,7 @@
         margin-bottom: 48px;
         font-size: 1rem;
     }
-    
+
     .popular-tours-img img{
         width: 100%;
     }

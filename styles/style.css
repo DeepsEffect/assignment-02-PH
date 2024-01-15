@@ -83,7 +83,7 @@ main {
     font-weight: 400;
 }
 .nav-right-icon{
-    display: block;
+    display: none;
 }
 
 /* banner section starts here....................... */
@@ -159,5 +159,49 @@ main {
     align-items: center;
     justify-content: space-between;
     gap: 150px;
+    margin-bottom: 100px;
 }
 
+/* destinations section styles starts here........................ */
+.destination-texts{
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.destination-images{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr) ;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.destination-images img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+   
+}
+.img-1{
+    grid-column: 1/span 6;
+    grid-row: 1/span 1;
+}
+.img-2{
+    grid-column: 7/span 6;
+}
+.img-3{
+    grid-column: 1/span 4;
+}
+.img-4{
+    grid-column: 5/span 5;
+}
+.img-5{
+    grid-column: 10/span 3;
+}
+.img-6{
+    grid-column: 1/span 5;
+}
+.img-7{
+    grid-column: 6/span 7;
+}
