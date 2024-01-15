@@ -9,6 +9,7 @@ header,
 main {
     width: 1440px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
 :root {
@@ -70,7 +71,6 @@ main {
 
 /* banner section starts here....................... */
 .banner {
-    border: 2px solid green;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner-image-1.png');
     background-repeat: no-repeat;
     width: 100%;
@@ -85,6 +85,7 @@ main {
     color: #FFF;
     font-size: 4rem;
     font-weight: 800;
+    padding-top: 106px;
 }
 
 .banner-description {
@@ -94,4 +95,32 @@ main {
     max-width: 676px;
     margin: 0 auto;
     margin-bottom: 64px;
+}
+
+.banner-form{
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    display: flex;
+    gap: 24px;
+}
+.banner-form *{
+    width: 100%;
+    padding: 14px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.banner-form select, textarea{
+    color: rgba(19, 19, 24, 0.50);
+}
+.banner-form .find-now-button {
+    background-color: var(--primary-color);
+    color: #FFF;
+}
+.banner-form .find-now-button:hover{
+    cursor: pointer;
+    background-color:#ec5104;
 }
