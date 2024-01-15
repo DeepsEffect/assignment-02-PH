@@ -1,44 +1,59 @@
 @media screen and (max-width:576px) {
+
     header,
-    main{
+    main {
         width: 100%;
     }
-    .nav-left-logo
-    .nav,
-    .banner-form{
+
+    .nav-left-logo .nav,
+    .banner-form {
         flex-direction: column;
-    } 
+    }
+
     .nav {
         width: 100px;
         margin-top: 20px;
         margin-bottom: 17px;
-    } 
+    }
+
     .nav-left-logo {
         font-size: 1.2rem;
         font-weight: 800;
         white-space: nowrap;
+        display: flex;
+        justify-content: space-between;
     }
-    .nav-right-items{
+
+    .nav-right-items {
         display: none;
     }
-    .banner{
+
+    .nav-right-icon {
+        display: none;
+
+
+    }
+
+    .banner {
         width: 100%;
         margin: 0 auto;
     }
+
     .banner-header {
         font-size: 2rem;
         font-weight: 700;
         padding-top: 30px;
         margin: 10 auto;
-        
+
     }
+
     .banner-description {
         width: 95%;
         margin: 0 auto;
         margin-bottom: 48px;
         font-size: 1rem;
     }
-    
-  
-  
+
+
+
 }

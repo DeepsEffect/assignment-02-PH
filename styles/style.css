@@ -32,6 +32,20 @@ main {
     font-weight: 400;
     line-height: 1.6rem;
 }
+.btn-primary{
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 14px 24px; 
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 800;
+
+}
+.btn-primary:hover{
+    cursor: pointer;
+    background-color:#ec5104;
+}
 
 /* header section starts here.............................. */
 .nav {
@@ -68,6 +82,9 @@ main {
     font-size: 1.12rem;
     font-weight: 400;
 }
+.nav-right-icon{
+    display: block;
+}
 
 /* banner section starts here....................... */
 .banner {
@@ -79,6 +96,7 @@ main {
     background-position: center;
     background-size: cover;
     border-radius: 1rem;
+    margin-bottom: 100px;
 }
 
 .banner-header {
@@ -134,3 +152,13 @@ main {
     cursor: pointer;
     background-color:#ec5104;
 }
+
+/* popular tour styles starts here............... */
+.popular-tours{
+    display: flex;
+    align-items: center;
+    border: 2px solid springgreen;
+    justify-content: space-between;
+    gap: 150px;
+}
+
