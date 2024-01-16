@@ -4,6 +4,7 @@
     main {
         width: 94%;
     }
+    .newsletter,
     .get-lost,
     .why-choose-us-texts-cards,
     .popular-tours,
@@ -102,4 +103,19 @@
     .why-choose-us{
         margin: 0;
     }
+    .discount-banner{
+        text-align: center;
+        max-width: 180px;
+        color: white;
+        padding: 5px;
+        margin: 0;
+        background-color: var(--primary-color);
+        border-radius: 8px;
+        position: relative;
+        left: 130px;
+        bottom: 80px;
+        transform: rotate(-18deg);
+        /* display: none; */
+    }
+  
 }

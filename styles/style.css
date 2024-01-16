@@ -335,13 +335,10 @@ destination-texts p {
     padding: 24px;
     color: white;
     background-color: var(--primary-color);
-    border-radius: 8px;
+    border-radius: 16px;
     position: relative;
-    left: 400px;
-    bottom: 140px;
-    transform: rotate(-45deg);
+    left: 395px;
+    bottom: 100px;
+    transform: rotate(-20deg);
     font-size: 1.5rem;
 }
-/* .seventy-percent{
-    font-weight: 800;
-} */
