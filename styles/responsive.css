@@ -8,23 +8,20 @@
     .get-lost,
     .why-choose-us-texts-cards,
     .popular-tours,
-    .nav,
     .banner-form {
         flex-direction: column;
     }
 
     .nav {
-        width: 100px;
         margin-top: 20px;
         margin-bottom: 17px;
+        justify-content: left;
 
     }
 
     .nav-left-logo {
         font-size: 1.2rem;
         font-weight: 800;
-        white-space: nowrap;
-        padding-left: 140px;
     }
 
     .nav-right-items {
@@ -117,5 +114,21 @@
         transform: rotate(-18deg);
         /* display: none; */
     }
-  
+    footer{
+        min-height: 350px;
+        padding: 8px;
+        
+    }
+    .foot-texts{
+        padding-top: 30px;
+    }
+    .all-rights{
+        width: 80%;
+    }
+    .footer-icons img{
+        margin: 16px;
+        padding-bottom: 10px;
+    }
+ 
+ 
 }
