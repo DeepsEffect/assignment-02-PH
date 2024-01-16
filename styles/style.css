@@ -389,19 +389,15 @@ footer{
 }
 
 /* unique section styles.............. */
-.tavel-tips{
+
+.travel-tips{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     margin-top: 120px;
     margin-bottom: 80px;
 }
 
-.tavel-tips{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.tavel-tips h2{
-    line-height: 2rem;
-}
 .tips-texts *{
     margin: 20px;
 }
