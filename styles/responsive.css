@@ -4,6 +4,7 @@
     main {
         width: 94%;
     }
+    .get-lost,
     .why-choose-us-texts-cards,
     .popular-tours,
     .nav,
@@ -94,5 +95,11 @@
         margin: 0;
     }
   
-
+    .iframe iframe{
+        width: 100%;
+        margin-top: 24px;
+    }
+    .why-choose-us{
+        margin: 0;
+    }
 }

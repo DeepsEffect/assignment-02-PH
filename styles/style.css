@@ -63,7 +63,7 @@ main {
     align-items: center;
     gap: 1rem;
     color: var(--headings-color);
-    color: #131318;
+    color: var(--headings-color);
     font-size: 2.25rem;
     font-weight: 800;
 }
@@ -83,6 +83,9 @@ main {
     color: var(--secondary-color);
     font-size: 1.12rem;
     font-weight: 400;
+}
+.nav-right-items .home{
+    color: var(--primary-color);
 }
 
 .nav-right-icon {
@@ -229,7 +232,10 @@ destination-texts p {
     grid-column: 6/span 7;
 }
 
-/* why choose us styles */
+/* why choose us styles.................................. */
+.why-choose-us{
+    margin-bottom: 100px;
+}
 .why-choose-us-texts {
     text-align: center;
     margin-bottom: 48px;
@@ -279,5 +285,16 @@ destination-texts p {
     margin-top: 24px;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+}
+
+/* get lost section styles.......................... */
+.get-lost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 100px;
+    justify-content: space-evenly;
+}
+.get-lost-texts{
+    max-width: 530px;
 }
