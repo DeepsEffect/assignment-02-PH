@@ -167,9 +167,11 @@ textarea {
 .popular-tours {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 150px;
+    justify-content: space-evenly;
     margin-bottom: 100px;
+}
+.popular-tours-texts p{
+    margin: 30px;
 }
 
 /* destinations section styles starts here........................ */
