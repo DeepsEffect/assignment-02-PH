@@ -27,9 +27,11 @@
     .nav-right-items {
         display: none;
     }
-
+    .nav{
+        justify-content: space-between;
+    }
     .nav-right-icon {
-        display: none;
+        display: block;
 
 
     }
@@ -52,7 +54,7 @@
     }
 
     .destination-texts h1 {
-        font-size: 20px;
+        font-size: 1.5rem;
         font-weight: 800;
     }
     .destination-texts p {
