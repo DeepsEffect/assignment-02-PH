@@ -387,3 +387,25 @@ footer{
     width: 50%;
     margin: 0 auto;
 }
+
+/* unique section styles.............. */
+.tavel-tips{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.tavel-tips{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tavel-tips h2{
+    line-height: 2rem;
+}
+.tips-texts *{
+    margin: 20px;
+}
+.tips-img img{
+    width: 500px;
+    border-radius: 8px;
+}
