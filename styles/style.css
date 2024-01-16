@@ -264,7 +264,7 @@ destination-texts p {
 }
 
 .card-2 {
-    width: 576px;
+    max-width: 576px;
     padding: 32px;
     border-radius: 16px;
     border: 1px solid rgba(41, 206, 246, 0.20);
@@ -272,7 +272,7 @@ destination-texts p {
 }
 
 .card-3 {
-    width: 576px;
+    max-width: 576px;
     padding: 32px;
     border-radius: 16px;
     margin: 0 auto;

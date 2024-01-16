@@ -4,7 +4,7 @@
     main {
         width: 94%;
     }
-
+    .why-choose-us-texts-cards,
     .popular-tours,
     .nav,
     .banner-form {
@@ -90,4 +90,9 @@
         grid-column: 1/span 12;
 
     }
+    .destination{
+        margin: 0;
+    }
+  
+
 }
