@@ -292,9 +292,56 @@ destination-texts p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     justify-content: space-evenly;
 }
 .get-lost-texts{
     max-width: 530px;
 }
+
+/* newsletter styles......................... */
+.newsletter{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.newsletter-texts{
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 20px;
+    justify-content: left;
+
+}
+.hr-line{
+    border: 1px solid var(--primary-color);
+}
+.newsletter .form input{
+    width: 85%;
+    padding: 14px 14px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin: 10px;
+    justify-content: center;
+}
+.newsletter img{
+    position: relative;
+    top: 55px;
+    width: 100%;
+}
+.discount-banner{
+    text-align: center;
+    max-width: 220px;
+    padding: 24px;
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    position: relative;
+    left: 400px;
+    bottom: 140px;
+    transform: rotate(-45deg);
+    font-size: 1.5rem;
+}
+/* .seventy-percent{
+    font-weight: 800;
+} */
